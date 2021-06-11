@@ -22,3 +22,7 @@ pub mod uuid;
 #[cfg(feature = "bson")]
 /// GraphQL support for [bson](https://github.com/mongodb/bson-rust) types.
 pub mod bson;
+
+#[cfg(feature = "serde_json")]
+/// GraphQL support for [bson](https://github.com/mongodb/bson-rust) types.
+pub mod serde_json;
